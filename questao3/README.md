@@ -2,7 +2,7 @@
 
 
 
-[Link para a questão](https://leetcodecomproblemsfind-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+[Link para a questão](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
 
 ### Gravação
 
@@ -18,12 +18,14 @@ Return the minimum cost to make all points connected. All points are connected i
 
 Example 1:
 
+![image](https://github.com/user-attachments/assets/295c1b55-a8e0-405f-b0a8-e05eb67a19b7)
 
 - Input: points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
 - Output: 20
 
 Explanation:
 
+![image](https://github.com/user-attachments/assets/fd990f32-1e39-4fe6-8854-9e140ebc2dd1)
 
 We can connect the points as shown above to get the minimum cost of 20.
 Notice that there is a unique path between every pair of points.
@@ -42,8 +44,7 @@ Constraints:
 
 
 ### Submissões: 
-![image](https://github.com/user-attachments/assets/d3b2fcef-db43-4336-a91b-7b7367d6c853)
-![image](https://github.com/user-attachments/assets/e9cc6ba1-4b53-46fb-8e99-106e4304c007)
+
 
 
 
