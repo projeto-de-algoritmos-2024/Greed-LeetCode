@@ -19,13 +19,13 @@ Este repositório contém questões resolvidas, sobre o conteúdo de Greed, do s
 ## Questões
 | Exercício | Dificuldade | Enunciado | Aluno |
 | -- | -- | -- | -- |
-| []() | Hard | [Clique Aqui]() | Mateus Orlando Medeiros Ribeiro |
+| [1235. Maximum Profit in Job Scheduling](https://github.com/projeto-de-algoritmos-2024/Greed-LeetCode/blob/main/questao1/README.md) | Hard | [Clique Aqui](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/) | Mateus Orlando Medeiros Ribeiro |
 | []() | Hard | [Clique Aqui]() | Johnny da Ponte Lopes |
-| []() | Medium | [Clique Aqui]() | Mateus Orlando Medeiros Ribeiro |
+| [1584. Min Cost to Connect All Points](https://github.com/projeto-de-algoritmos-2024/Greed-LeetCode/blob/main/questao3/README.md) | Medium | [Clique Aqui](https://leetcode.com/problems/min-cost-to-connect-all-points/description/) | Mateus Orlando Medeiros Ribeiro |
 | []() | Medium | [Clique Aqui]() | Johnny da Ponte Lopes |
 
 
 ## Instalação 
-**Linguagem**: C/Python
+**Linguagem**: C
 
 
