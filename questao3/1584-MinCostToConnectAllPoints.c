@@ -57,6 +57,10 @@ int compare(const void *a, const void *b) {
 }
 
 int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
+    if (pointsSize == 1) {
+        return 0;
+    }
+
     int n = pointsSize;
     int edgeCount = n * (n - 1) / 2;
     int **edges = (int**) malloc(edgeCount * sizeof(int*));
@@ -87,14 +91,7 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
             totalCost += cost;
             edgesUsed++;
             if (edgesUsed == n - 1) {  
-                free(uf->parent);
-                free(uf->rank);
-                free(uf);
-                for (int j = 0; j < edgeCount; j++) {
-                    free(edges[j]);
-                }
-                free(edges);
-                return totalCost;
+                break;
             }
         }
     }
@@ -107,5 +104,5 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
     }
     free(edges);
     
-    return -1;  
+    return totalCost;  
 }
