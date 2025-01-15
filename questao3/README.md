@@ -1,6 +1,6 @@
 ## #1584. Min Cost to Connect All Points
 
-
+![image](https://github.com/user-attachments/assets/459d9914-593a-42b6-9881-fbad54591308)
 
 [Link para a questão](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
 
@@ -44,6 +44,8 @@ Constraints:
 
 
 ### Submissões: 
+![image](https://github.com/user-attachments/assets/135c38e2-4211-4c0e-be20-cc39dd2ecccb)
+![image](https://github.com/user-attachments/assets/9cd2b65a-d612-44dc-a4d4-3bb870309930)
 
 
 
