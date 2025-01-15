@@ -2,14 +2,12 @@
 #include <stdlib.h>
 #include <math.h>
 
-// Estrutura para representar um conjunto disjunto (Union-Find)
 typedef struct {
     int *parent;
     int *rank;
     int n;
 } UnionFind;
 
-// Função para inicializar a estrutura Union-Find
 UnionFind* createUnionFind(int n) {
     UnionFind *uf = (UnionFind*) malloc(sizeof(UnionFind));
     uf->parent = (int*) malloc(n * sizeof(int));
@@ -23,21 +21,18 @@ UnionFind* createUnionFind(int n) {
     return uf;
 }
 
-// Função para encontrar o representante do conjunto de um elemento
 int find(UnionFind *uf, int x) {
     if (uf->parent[x] != x) {
-        uf->parent[x] = find(uf, uf->parent[x]); // Compressão de caminho
+        uf->parent[x] = find(uf, uf->parent[x]); 
     }
     return uf->parent[x];
 }
 
-// Função para unir dois conjuntos
 int unionSets(UnionFind *uf, int x, int y) {
     int rootX = find(uf, x);
     int rootY = find(uf, y);
     
     if (rootX != rootY) {
-        // União por rank
         if (uf->rank[rootX] > uf->rank[rootY]) {
             uf->parent[rootY] = rootX;
         } else if (uf->rank[rootX] < uf->rank[rootY]) {
@@ -51,19 +46,16 @@ int unionSets(UnionFind *uf, int x, int y) {
     return 0;
 }
 
-// Função para calcular a distância de Manhattan entre dois pontos
 int manhattanDistance(int* p1, int* p2) {
     return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1]);
 }
 
-// Função para comparar as arestas (usada para ordenar as arestas)
 int compare(const void *a, const void *b) {
     int* edgeA = *(int**)a;
     int* edgeB = *(int**)b;
-    return edgeA[2] - edgeB[2]; // Compara pelo custo
+    return edgeA[2] - edgeB[2]; 
 }
 
-// Função para calcular o custo mínimo para conectar todos os pontos
 int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
     int n = pointsSize;
     int edgeCount = n * (n - 1) / 2;
@@ -80,7 +72,6 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
         }
     }
 
-    // Ordena as arestas pela distância
     qsort(edges, edgeCount, sizeof(int*), compare);
     
     UnionFind *uf = createUnionFind(n);
@@ -92,11 +83,10 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
         int v = edges[i][1];
         int cost = edges[i][2];
         
-        // Se os pontos u e v não estão no mesmo conjunto, conecta-os
         if (unionSets(uf, u, v)) {
             totalCost += cost;
             edgesUsed++;
-            if (edgesUsed == n - 1) {  // Se já usamos n-1 arestas, terminamos
+            if (edgesUsed == n - 1) {  
                 free(uf->parent);
                 free(uf->rank);
                 free(uf);
@@ -117,5 +107,5 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
     }
     free(edges);
     
-    return -1;  // Se não for possível conectar todos os pontos
+    return -1;  
 }
