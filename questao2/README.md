@@ -1,6 +1,6 @@
 ## #630. Course Schedule III
 
-
+![image](https://github.com/user-attachments/assets/ff7171ce-b05b-4f10-b53a-230509f80c36)
 
 [Link para a questão](https://leetcode.com/problems/course-schedule-iii/description/)
 
@@ -50,6 +50,8 @@ Constraints:
 
 ### Submissões: 
 
+![image](https://github.com/user-attachments/assets/dc7e56c4-c38c-431f-8822-bd88cf177647)
+![image](https://github.com/user-attachments/assets/6f54e70f-bd3a-48ff-a60a-abf72ceadeff)
 
 
 
