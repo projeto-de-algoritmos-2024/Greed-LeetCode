@@ -1,4 +1,5 @@
 ## #435. Non-overlapping Intervals
+![image](https://github.com/user-attachments/assets/0c6f16e5-d0a1-48f6-87dd-07108692a16b)
 
 
 [Link para a questão](https://leetcode.com/problems/non-overlapping-intervals/description/)
@@ -41,6 +42,8 @@ Constraints:
 
 
 ### Submissões: 
+![image](https://github.com/user-attachments/assets/f44fc4fd-9af3-40b1-b06f-ba7e04523a7c)
+![image](https://github.com/user-attachments/assets/0da679ec-0e53-4488-959a-8bad1e62f2c4)
 
 
 
