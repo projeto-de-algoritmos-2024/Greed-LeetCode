@@ -20,9 +20,9 @@ Este repositório contém questões resolvidas, sobre o conteúdo de Greed, do s
 | Exercício | Dificuldade | Enunciado | Aluno |
 | -- | -- | -- | -- |
 | [1235. Maximum Profit in Job Scheduling](https://github.com/projeto-de-algoritmos-2024/Greed-LeetCode/blob/main/questao1/README.md) | Hard | [Clique Aqui](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/) | Mateus Orlando Medeiros Ribeiro |
-| []() | Hard | [Clique Aqui]() | Johnny da Ponte Lopes |
+| [630. Course Schedule III](https://github.com/projeto-de-algoritmos-2024/Greed-LeetCode/blob/main/questao2/README.md) | Hard | [Clique Aqui](https://leetcode.com/problems/course-schedule-iii/description/) | Johnny da Ponte Lopes |
 | [1584. Min Cost to Connect All Points](https://github.com/projeto-de-algoritmos-2024/Greed-LeetCode/blob/main/questao3/README.md) | Medium | [Clique Aqui](https://leetcode.com/problems/min-cost-to-connect-all-points/description/) | Mateus Orlando Medeiros Ribeiro |
-| []() | Medium | [Clique Aqui]() | Johnny da Ponte Lopes |
+| [435. Non-overlapping Intervals](https://github.com/projeto-de-algoritmos-2024/Greed-LeetCode/blob/main/questao4/README.md) | Medium | [Clique Aqui](https://leetcode.com/problems/non-overlapping-intervals/description/) | Johnny da Ponte Lopes |
 
 
 ## Instalação 
